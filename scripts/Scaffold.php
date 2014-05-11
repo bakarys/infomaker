@@ -34,7 +34,7 @@ namespace Infomaker\Scripts
 		}
 
 		/**
-		 * This method is recursive and it generates sap entity classes
+		 * This method is recursive and it generates entity classes
 		 *
 		 * @param array $values
 		 * @param string $className
