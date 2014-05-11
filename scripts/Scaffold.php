@@ -45,13 +45,13 @@ namespace Infomaker\Scripts
 		{
 			$code = array(
 				'<?php',
-				'namespace SSENSE\SapBridge\Models\Entities',
+				'namespace Infomaker\Models\Entities',
 				'{',
 				'',
 				' /**',
-				' * Sap entity ' . $className,
+				' * Entity ' . $className,
 				' */',
-				' class ' . $className . ' ' . 'extends Base',
+				' class ' . $className . ' ' . 'extends AbstractEntity',
 				' {'
 			);
 
